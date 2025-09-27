@@ -6,11 +6,6 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		24865EB22E85E3BF000A64FC /* Color-Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24865EB12E85E3BF000A64FC /* Color-Theme.swift */; };
-		24865EB42E85E970000A64FC /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24865EB32E85E970000A64FC /* MissionView.swift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXContainerItemProxy section */
 		24789F912E8470D40071FD9A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -32,8 +27,6 @@
 		24789F832E8470D30071FD9A /* Moonshot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moonshot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24789F902E8470D40071FD9A /* MoonshotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoonshotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		24789F9A2E8470D40071FD9A /* MoonshotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoonshotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		24865EB12E85E3BF000A64FC /* Color-Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-Theme.swift"; sourceTree = "<group>"; };
-		24865EB32E85E970000A64FC /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -82,8 +75,6 @@
 		24789F7A2E8470D30071FD9A = {
 			isa = PBXGroup;
 			children = (
-				24865EB32E85E970000A64FC /* MissionView.swift */,
-				24865EB12E85E3BF000A64FC /* Color-Theme.swift */,
 				24789F852E8470D30071FD9A /* Moonshot */,
 				24789F932E8470D40071FD9A /* MoonshotTests */,
 				24789F9D2E8470D40071FD9A /* MoonshotUITests */,
@@ -245,8 +236,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24865EB42E85E970000A64FC /* MissionView.swift in Sources */,
-				24865EB22E85E3BF000A64FC /* Color-Theme.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
