@@ -23,7 +23,7 @@ struct AstronautView: View {
         }
         .background(.darkBackground)
         .navigationTitle(astronaut.name)
-        navigationBarTitleDisplayMode(.inline)
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 
